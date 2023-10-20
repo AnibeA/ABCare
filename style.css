@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+#nav-bar h1 a{
+  color: #023e8a;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+h1{
+  margin-bottom: 3rem;
+}
+
+.my_container li{
+  list-style: none;
+}
+
+.my_container ul{
+  list-style: none;
+  display: flex;
+  margin: 1rem 1rem 0 ;
+}
+
+#nav-bar{
+  background: #e9c46a;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.my_container{
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  align-items: centre;
+
+}
+
+.my_container ul li a{
+  padding: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.my_container ul li a:hover{
+  color: #023e8a;
+}
+
+.sub-menu{
+  display: none;
+  text-align: center;
+  align-items: center;
+}
+
+.my_container li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background: #3213;
+  margin-top: 1rem;
+  margin-left: -1rem;
+  text-align: center;
+  z-index:10;
+}
+
+.my_container li:hover .sub-menu ul{
+  display: block;
+  margin: 1rem;
+  align-items: center;
+  text-align: center;
+  z-index:10;
+}
+
+.my_container li:hover .sub-menu ul li{
+  width: 10rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #123456;
+  background: transparent;
+  text-align: center;
+  align-items: center;
+  z-index:10;
+}
+
+#poster{
+  background-image: url("images/home1.jpeg");
+  height: 100vh;
+  width: 100%;
+  margin: auto; /*centralise div horizontally"*/
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding: 1rem;
+}
+
+#poster p{
+  color: #fff;
+}
+
+#moreinfo{
+  display: grid;
+  grid-template-columns: 1fr ;
+  padding: 1rem;
+}
+
+
+
+.infobox1{
+  padding: 1rem;
+  border: 1px solid #171738;
+  grid-area: 1/1/2/2;
+  background-color: #9396;
+  height: 50vh;
+  background-size: cover;
+  box-shadow: 0 0.5rem 1.6rem;
+  border-radius: 0.5rem;
+
+}
+
+.infobox2{
+  padding: 1rem;
+  border: 1px solid #171738;
+  background-color: #0a93;
+  background-size: cover;
+  height: 50vh;
+  box-shadow: 0 0.5rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.infobox3{
+  padding: 1rem;
+  border:  solid #171738;
+  background-color: #0396;
+  height: 50vh;
+  box-shadow: 0 0.5rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.form{
+  position: relative;
+  padding: 4rem 3rem 5rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.5rem 1.6rem;
+  font-family: sans-serif;
+}
+
+
+.form2{
+  position: relative;
+  padding: 4rem 3rem 5rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.5rem 1.6rem;
+  font-family: sans-serif;
+  margin-top: 3rem;
+}
+
+.form_pages{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #0396;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#rooms{
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: 5fr 5fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  background-color: #0a93;
+  width: 100%;
+}
+
+#rooms2{
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows:2.5fr 2.5fr 2.5fr 2.5fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  background-color: #0396;
+  width: 100%;
+}
+
+
+#rooms .box{
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 3rem 5rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.5rem 1.6rem;
+  font-family: sans-serif;
+  margin-top: 3rem;
+}
+
+#rooms2 .box2{
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 3rem 5rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.5rem 1.6rem;
+  font-family: sans-serif;
+  margin-top: 3rem;
+}
+
+main{
+  padding: 2rem;
+
+}
+
+img{
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#footer{
+  background-color: #023e8a;
+  padding-top: 15rem;
+  margin-top: 10rem;
+}
+
+#footer_content{
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+}
